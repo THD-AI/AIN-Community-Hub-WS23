@@ -21,4 +21,4 @@ The repository keeps its historical `WS23` URL so old discussion links continue 
 
 [Public visual history](https://thd-ai.github.io/history/) · [Original hub documents](archive/2023-2024/README.md) · [Historical calendar release](https://github.com/THD-AI/AIN-Community-Hub-WS23/releases/tag/WS24-25)
 
-For membership, collaborations, or a conversation over coffee, email [Alexander](mailto:alex.rudaev@outlook.com). Independent of THD; no university endorsement.
+For membership, collaborations, or a conversation over coffee, email [Alex](mailto:alex.rudaev@outlook.com). Independent of THD; no university endorsement.
