@@ -1,0 +1,22 @@
+title: "Idea: "
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What are you curious about making?
+      description: A small idea or work in progress is enough. Tell people who it could help or what you want to learn.
+    validations:
+      required: true
+  - type: textarea
+    id: first-step
+    attributes:
+      label: What could the first useful result look like?
+  - type: textarea
+    id: company
+    attributes:
+      label: What kind of company would help?
+      description: Coding, design, testing, domain knowledge, or someone to learn with. Choose your own pace and collaborators.
+  - type: input
+    id: link
+    attributes:
+      label: Repository or sketch, if you have one
