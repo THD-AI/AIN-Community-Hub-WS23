@@ -1,0 +1,25 @@
+name: Community idea
+description: Suggest a useful improvement to the community.
+title: "[Community] "
+body:
+  - type: textarea
+    id: field-1
+    attributes:
+      label: Idea
+      description: What would you like to improve?
+    validations:
+      required: true
+  - type: textarea
+    id: field-2
+    attributes:
+      label: Who benefits?
+      description: Explain the problem and who it helps.
+    validations:
+      required: true
+  - type: textarea
+    id: field-3
+    attributes:
+      label: First step
+      description: What is the smallest useful step?
+    validations:
+      required: false

@@ -1,0 +1,25 @@
+name: Task or improvement
+description: Define a focused piece of work.
+title: "[Task] "
+body:
+  - type: textarea
+    id: field-1
+    attributes:
+      label: Goal
+      description: What should be different when this is done?
+    validations:
+      required: true
+  - type: textarea
+    id: field-2
+    attributes:
+      label: Scope
+      description: Describe the change and relevant context.
+    validations:
+      required: true
+  - type: textarea
+    id: field-3
+    attributes:
+      label: Done when
+      description: How can someone verify the result?
+    validations:
+      required: false

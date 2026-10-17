@@ -1,0 +1,25 @@
+name: Bug or problem
+description: Report a reproducible problem in this repository.
+title: "[Bug] "
+body:
+  - type: textarea
+    id: field-1
+    attributes:
+      label: What happened?
+      description: Describe the problem and what you expected.
+    validations:
+      required: true
+  - type: textarea
+    id: field-2
+    attributes:
+      label: Reproduce it
+      description: Give the steps, environment, and any useful error message.
+    validations:
+      required: true
+  - type: textarea
+    id: field-3
+    attributes:
+      label: Additional context
+      description: Add screenshots or relevant details. Remove private information first.
+    validations:
+      required: false
