@@ -1,0 +1,32 @@
+title: "Showcase: "
+body:
+  - type: markdown
+    attributes:
+      value: "Show something you care about: a personal project, university work, a useful experiment, or a lesson worth sharing. A work in progress is welcome."
+  - type: textarea
+    id: work
+    attributes:
+      label: What did you make, and why?
+      description: Explain the idea, its current state, and what someone can learn from it.
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Repository, demo, or write-up
+      description: Give people a way to explore the work.
+  - type: textarea
+    id: credits
+    attributes:
+      label: People and sources
+      description: Credit collaborators and material you used. AI assistance is welcome; explain your process where it helps someone understand the work.
+    validations:
+      required: true
+  - type: textarea
+    id: next
+    attributes:
+      label: What comes next?
+      description: Feedback, collaborators, a new maintainer, or simply sharing what you learned.
+  - type: markdown
+    attributes:
+      value: "Want a listing on the website too? Use the [showroom submission form](https://github.com/THD-AI/thd-ai.github.io/issues/new?template=project-submission.yml). Your repository can stay in your account."
